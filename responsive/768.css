@@ -1,0 +1,111 @@
+@media only screen and (min-width: 700px) and (max-width: 1020px) {
+
+
+    /* Navbar */
+
+    #trapezoid {
+        padding-left: 2%;
+        box-sizing: content-box;
+        height: 0;
+        border: 35px solid rgba(0, 0, 0, 0);
+        border-top: 0 solid;
+        border-bottom: 100px solid rgba(1, 1, 1, .4);
+        border-radius: 20px 20px 0 0;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.7);
+        text-overflow: clip;
+        transform: rotateX(180deg);
+        margin-top: -53px;
+        width: 620px;
+        position: relative;
+        transition: all 0.7s ease;
+    }
+
+    .subnav .subnavbtn {
+        font-size: 14px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 15px 17px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        transition: all 0.5s ease;
+    }
+
+    .navbar a {
+        font-size: 14px;
+        padding: 15px 17px;
+    }
+
+    /* Home */
+
+    #Home {
+        height: 582px;
+    }
+
+    .hero {
+        margin: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero img {
+        margin: -1px;
+        width: 258px;
+    }
+
+
+    #Home p {
+        left: 0px;
+        top: -52px;
+        width: 424px;
+        font-size: 1.5rem;
+    }
+
+    #Home h1 {
+        display: block;
+        left: 0px;
+        top: -10px;
+    }
+
+    /* Pack section */
+
+    #things {
+        flex-direction: column;
+    }
+
+    /* Social */
+
+    #social .box {
+        width: 400px;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .ftext {
+        opacity: 0.6;
+        padding: 0px;
+        text-align: center;
+      }
+
+    /* Utility classes */
+
+    hr {
+        width: 575px;
+    }
+
+    .hed {
+        font-size: 3.2rem;
+    }
+}

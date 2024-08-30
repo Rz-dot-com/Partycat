@@ -1,0 +1,40 @@
+@media only screen and (min-width: 1021px) and (max-width: 1206px) {
+
+    /* Home */
+
+    .hero {
+        margin: 10px;
+    }
+
+    /* packs */
+
+    #things {
+        margin: 10px;
+    }
+
+    #things .box {
+        width: 500px;
+        padding: 14px;
+    }
+
+    /* Footer */
+
+    .footer {
+        padding: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .ftext {
+        opacity: 0.6;
+        padding: 0px;
+        text-align: center;
+      }
+      /* Utility Classes */
+
+      .hed {
+        font-size: 3.1rem;
+      }
+
+}
